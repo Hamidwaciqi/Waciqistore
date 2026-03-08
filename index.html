@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Wholesale Store</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f5f5f5;
+}
+
+header{
+background:#131921;
+color:white;
+padding:15px;
+text-align:center;
+font-size:28px;
+font-weight:bold;
+}
+
+.sub{
+background:#232f3e;
+color:white;
+text-align:center;
+padding:8px;
+}
+
+.container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+padding:40px;
+}
+
+.card{
+background:white;
+width:260px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+overflow:hidden;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.card-content{
+padding:20px;
+}
+
+.product-title{
+font-size:20px;
+font-weight:bold;
+margin-bottom:10px;
+}
+
+.price{
+margin:6px 0;
+font-size:16px;
+}
+
+.wholesale{
+color:#27ae60;
+font-weight:bold;
+}
+
+.normal{
+color:#e74c3c;
+font-weight:bold;
+}
+
+button{
+width:100%;
+margin-top:10px;
+padding:12px;
+border:none;
+background:#25D366;
+color:white;
+font-size:16px;
+border-radius:6px;
+cursor:pointer;
+}
+
+button:hover{
+background:#1ebe5d;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#131921;
+color:white;
+margin-top:30px;
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+My Wholesale Shop
+</header>
+
+<div class="sub">
+Best Prices for Clothes & Phone Accessories
+</div>
+
+<div class="container">
+
+<!-- MEN CLOTHES -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1520975916090-3105956dac38">
+<div class="card-content">
+<div class="product-title">Men Clothes</div>
+
+<div class="price wholesale">
+Wholesale: $3
+</div>
+
+<div class="price normal">
+Single Price: 700 AFN
+</div>
+
+<a href="https://wa.me/93764948969?text=Hello I want to order Men Clothes">
+<button>Order on WhatsApp</button>
+</a>
+
+</div>
+</div>
+
+<!-- PHONE COVERS -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1601597111158-2fceff292cdc">
+<div class="card-content">
+
+<div class="product-title">Phone Covers</div>
+
+<div class="price wholesale">
+Wholesale: 25 AFN
+</div>
+
+<div class="price normal">
+Single Price: 40 AFN
+</div>
+
+<a href="https://wa.me/YOURNUMBER?text=Hello I want to order Phone Covers">
+<button>Order on WhatsApp</button>
+</a>
+
+</div>
+</div>
+
+</div>
+
+<footer>
+© 2026 My Wholesale Store
+</footer>
+
+</body>
+</html>
